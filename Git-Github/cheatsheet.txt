@@ -1,0 +1,32 @@
+git init ---> 
+Este comando inicializa un repositorio local en la carpeta del proyecto.
+git config user.name "nombreDeUsuario" ---> 
+Este comando sirve para agregar nuestra identidad al repositorio local.
+git config user.email "nombre@email.com" ---> 
+Este comando es complementario al anterior para agregar la identidad al repositorio local.
+git remote add origin https://github.com/nombreDeUsuario/nombreDelRepositorio.git ---> 
+Este comando sirve para conectar el repositorio local con el repositorio remoto.
+git remote -v ---> 
+Este comando sirve para verificar que el comando anterior se ejecuto correctamente.
+git status ---> 
+Este comando sirve para verificarel estatus de nuestros archivos
+git add nombreDeArchivo.extension ---> 
+Este comando sirve para agregar los archivos que deseamos al commit(paquete) que guardaremos.
+git add . ---> 
+Este comando agrega todos los archivos nuevos y/o modificados al commit(paquete) que guardaremos.
+git commit -m "mensaje" ---> 
+Este comando sirve para confirmar que queremos subir de manera definitiva esos documentos que se agregaron previamente, entre comillas debe llevar un pequeño mensaje que resuma el trabajo que estamos subiendo.
+git push origin master ---> 
+Este comando envía los cambios incluidos en el commit a la rama master del repositorio remoto.
+git pull origin master ---> 
+Este comando sirve para actualizar los archivos de nuestro repositorio local con respecto a los que estan en el repositorio remoto.
+git clone URLDelProyecto ---> 
+Este comando sirve para clonar el repositorio de la URL que le indicamos.
+git rm ---> 
+Este comando sirve para remover archivos.
+git rm -r ---> 
+Este comando sirve para remover un directorio y los archivos que contiene.
+git log ---> 
+Muestra el historial
+git log --oneline ---> 
+Este comando sirve para ver el historial de commits creados.
